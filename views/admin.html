@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin seller</title>
+</head>
+<body>
+
+    <label for="Selling Price"> Selling price</label>
+    <input type="number" id ="selling_price">
+    <label for="product name">Product Name</label>
+    <input type="text" id="product_name">
+    <label for="choose cateogory">choose cateogory</label>
+    <select name="cateogory" id="cateogory">
+        <option value="Electronic">Electronic</option>
+        <option value="food">food</option>
+        <option value="Skincare">Skincare</option>
+        
+      </select>
+    <input class="btn" type="submit" value="Add Product" id="product">  
+    <h1>Products</h1>
+ 
+  
+
+    <section class="Electronic_item"> 
+       <h1> Electronic Items</h1>
+    </section>
+    <section class="Food_items">
+        <h1>Food Items</h1>
+    </section>
+    <section class="Skincare_items">
+       <h1> Skincare Items</h1>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+
+    <script src="seller.js"></script>
+</body>
+</html>
